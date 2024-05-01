@@ -6,7 +6,7 @@ function Haircal() {
 
 
 <>
-<section className=" w-75 elementor-section elementor-top-section elementor-element elementor-element-00bc428 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00bc428" data-element_type="section" id="more" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}" style={{marginLeft:"80px"}}>
+<section className=" w-75 elementor-section elementor-top-section elementor-element elementor-element-00bc428 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00bc428" data-element_type="section" id="more" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}" style={{marginLeft:"90px"}}>
 						<div className="elementor-container elementor-column-gap-default">
 					<div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b70b463" data-id="b70b463" data-element_type="column">
 			<div className="elementor-widget-wrap elementor-element-populated">
@@ -26,9 +26,11 @@ function Haircal() {
 					<div className="form-inline">
 					</div>
 				</div>
+				<center>
 				<div className="col-12 mt-4">
 					<h3 className="head-underline"> Select Areas you need Treatment<br></br><span id="mobileshow" style={{color:"red", fontsize:"15px"}}></span></h3><br></br>
 				</div>
+				</center>
 				<div className="col-12 mt-2">
 						<div className="areas-picker">
 							

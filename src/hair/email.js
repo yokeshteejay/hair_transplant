@@ -21,7 +21,7 @@ function EmailInfo({ formData, setFormData }) {
   return (
     <div className="other-info-container">
       <input
-        className="w-50"
+        className="w-50 border-0"
         type="email"
         placeholder="@Email"
         value={email}

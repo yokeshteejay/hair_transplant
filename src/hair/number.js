@@ -22,7 +22,7 @@ function NumberInfo({ formData, setFormData }) {
   return (
     <div className="personal-info-container">
       <input
-        className="w-50"
+        className="w-50 border-0"
         type="number"
         placeholder="Enter Your Number"
         value={number}

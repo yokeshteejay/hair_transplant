@@ -16,10 +16,10 @@
 
 body {
  
-  font-family: montserrat, arial, verdana;
-  background-image: url("../img/kitkat2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/back2.jpg")!important;
+  background-repeat: no-repeat!important ;
+  background-size: cover!important ;
+  /* background-color: #62c7e0 !important; */
 }
 
 .form {
@@ -33,13 +33,14 @@ body {
 }
 
 .form-container {
-  width: 700px;
-  height: 300px;
-  background-color: white;
+  width: 600px;
+  height: 680px;
+  background-color: whitesmoke;
   border-radius: 8px;
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
+  margin-top: -10px;
 }
 
 .form-container .header {
@@ -113,6 +114,7 @@ body {
   height: 10px;
   background-color: white;
   margin-bottom: 50px;
+  border-radius: 20px;
   
 }
 
@@ -154,9 +156,7 @@ input:focus {
     margin-top: 40px;
     font-size: 25px;
 }
-body{
-  background-color: white !important;
-}
+
 #name_inp{
     
   border-bottom: 3px solid rgb(99, 147, 54);

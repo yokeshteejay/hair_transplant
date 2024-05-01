@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import FormPage1 from './hair/formpage1';
+import Haircal from './hair/haircal';
+// import Main from './hair/hair';
+// import App from './App';
+// import FormPage1 from './hair/formpage1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <FormPage1/> 
+    {/* <FormPage1/>  */}
+    {/* <App/> */}
+    {/* <Main/> */}
+    <Haircal/>
   </React.StrictMode>
 );
 

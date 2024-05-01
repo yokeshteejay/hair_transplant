@@ -34,7 +34,7 @@ function Looklike() {
 
     <>
     
-    <div class="container-fluid d-flex justify-content-center" style={{marginTop:"-10px"}}>
+    <div class="container-fluid d-flex justify-content-center" style={{marginTop:"-30px"}}>
   <div class="row w-75 mt-3">
     <div class="col-md-12">
       <div class="btn-group d-flex justify-content-evenly d-grid gap-5" style={{height:"70px"}}>

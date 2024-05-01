@@ -57,17 +57,28 @@ function FormPage1() {
 
 <div id="background" >
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <div class="container-fluid">
-    <img src={img} width={130}></img>
+  <div class="container-fluid d-flex justify-content-start">
+    <img src={img} width={80} style={{marginLeft:"0px",marginTop:"-50px"}}></img>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <p style={{color:"white",marginLeft:"-100px",marginTop:"50px"}}>Kindly tell us about your hair hair loss. So we can tell the exact cost for your surgery,</p>
     </div>
+
 </nav>
 
 {/* ---------- */}
 <div className="form container">
-  <div className="progressbar w-75">
+  {/* <div className="progressbar w-75"  style={{color:"white"}}>
+    <div 
+      style={{ width: `${Math.round((page + 1) * (100 / FormTitles.length))}%` }}
+    >
+      <br></br>
+      {Math.round((page + 1) * (100 / FormTitles.length))}%
+    </div>
+  </div> */}
+  <div className="form-container shadow-none">
+  <div className="progressbar w-50 mt-5"  style={{color:"black",marginLeft:"130px"}}>
     <div 
       style={{ width: `${Math.round((page + 1) * (100 / FormTitles.length))}%` }}
     >
@@ -75,7 +86,6 @@ function FormPage1() {
       {Math.round((page + 1) * (100 / FormTitles.length))}%
     </div>
   </div>
-  <div className="form-container shadow-none">
     <div className="header">
       <h1>{FormTitles[page]}</h1>
     </div>
